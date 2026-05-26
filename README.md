@@ -1,4 +1,7 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+<p align="center">
+  <img src="https://portfolio.neubyte.com/assets/apple-touch-icon.png" width="140" alt="NeuByte Technologies Logo">
+</p>
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+
+<h1 align="center">NeuByte Standards Repository</h1>
+<p align="center">Organization‑wide standards for documentation, design, development, and delivery.</p>
