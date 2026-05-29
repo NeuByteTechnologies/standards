@@ -1,0 +1,52 @@
+GIMP Palette
+Name: NeuByte-Extended
+Columns: 12
+#
+
+# --- Brand Colors ---
+0 122 255      NB Primary Blue
+0 102 212      NB Primary Blue Dark
+153 204 255    NB Primary Blue Light
+
+# --- Stroke + Metadata ---
+51 51 51       NB Stroke Gray
+128 128 128    NB Metadata Gray
+
+# --- Neutral Palette ---
+240 240 240    NB Neutral Light
+220 220 220    NB Neutral Mid
+200 200 200    NB Neutral Mid-Dark
+34 34 34       NB Neutral Dark
+
+# --- Diagram Fills (converted from opacity tokens) ---
+230 242 255    NB Blue Emphasis Fill (15%)
+245 245 245    NB Neutral Emphasis Fill (10%)
+
+# --- UI Tokens ---
+0 0 0          NB Text Primary
+51 51 51       NB Text Secondary
+128 128 128    NB Text Metadata
+255 255 255    NB Surface White
+245 245 245    NB Surface Light
+34 34 34       NB Surface Dark
+
+# --- Semantic Colors ---
+0 180 0        NB Success Green
+255 180 0      NB Warning Amber
+220 0 0        NB Error Red
+0 150 255      NB Info Blue
+
+# --- Accent Colors ---
+0 122 255      NB Accent Blue
+102 153 255    NB Accent Blue Light
+0 90 190       NB Accent Blue Deep
+
+# --- Diagram-Specific Tokens ---
+0 0 0          NB Connector Black
+51 51 51       NB Lane Border Gray
+240 240 240    NB Lane Fill Light
+220 220 220    NB Lane Fill Mid
+
+# --- Optional Extended Tokens ---
+180 180 180    NB Divider Gray
+255 255 255    NB White
