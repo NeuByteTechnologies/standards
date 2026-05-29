@@ -1,0 +1,241 @@
+# NeuByte Documentation Versioning Standard  
+**Version**: 1.1
+**Status**: Active
+**Last Updated**: 2026‑05‑28
+
+## Summary of Changes (v1.1)
+- Reformatted document to match NeuByte Standards canonical structure
+- Added Status and Last Updated fields
+- Standardized date formatting to YYYY‑MM‑DD
+- Moved Revision History to bottom of document
+- Renamed “VersionPolicy.md” to “versioning-standard.md”
+- Clarified placement rules for Markdown, Word, Excel, and Diagrams
+- Aligned terminology with Visual Grammar and Documentation Standards
+
+## 1. Purpose
+This standard defines the **unified versioning model** for all NeuByte documentation artifacts, including:
+
+- Markdown (`*.md`)
+- Word (`*.docx`)
+- Excel (`*.xlsx`)
+- Diagrams (`*.png`, `*.svg`, `*.drawio`)
+
+The goal is to ensure consistency, clarity, and professional presentation across all NeuByte deliverables.  
+
+Version numbers track **published states**, not granular edits.  
+Git tracks changes; version numbers track releases.  
+
+## 2. Version Number Format  
+NeuByte uses a release‑based versioning model:  
+---
+Version: X.Y  
+Where:  
+---
+
+**- X = Major version**
+**- Y = Minor version**
+
+**Examples**
+- `1.0` — Initial release
+- `1.1` — Minor updates
+- `2.0` — Major structural or functional changes
+
+No “v” prefix is used.  
+
+## 3. Where Version Numbers MUST Appear
+### 3.1 Markdown Files (*.md)
+
+**Required on:**
+- Root `README.md`
+- `/docs/README.md`
+- Module‑level READMEs
+- BRD (`brd.md`)
+- Functional Specification (`fs.md`)
+- UI Specification (`ui-spec.md`)
+- Architecture Overview
+- Test Strategy / Test Plan
+- Any Markdown intended as a final deliverable
+
+**Not required on:**
+- Individual Use Case files
+- Individual Test Case files
+- Internal notes
+- Scratch or working Markdown
+
+**Placement(canonical)**:
+
+---
+
+Version: X.Y  
+Last Updated: YYYY‑MM‑DD
+
+---
+
+### 3.2 Word Documents (`*.docx`)
+Version numbers must appear in:
+
+- Footer
+- Title page (if applicable)
+- Document metadata (optional but recommended)
+
+**Applies to:**
+- BRD
+- UI Specification
+- Legal documents (Privacy Policy, Terms & Conditions)
+- Any exported PDF derived from Word
+
+**Footer format:**
+
+---
+
+© 2026 NeuByte Technologies | Version: X.Y
+
+---
+
+### 3.3 Excel Documents (*.xlsx)
+Version numbers must appear in:
+
+**Footer**
+
+Metadata sheet (optional)
+
+Named cell AppVersion (if used for automation)
+
+**Applies to:**
+
+- RTM
+- Data dictionaries
+- UI mapping sheets
+- Any Excel artifact included in deliverables
+
+**Footer format:**
+
+--- 
+
+© 2026 NeuByte Technologies — Version: X.Y
+
+---
+
+### 3.4 Diagrams (`*.png`, `*.svg`, `*.drawio`)
+
+Version numbers must appear in:
+
+- Footer bar
+- Bottom‑right corner
+- Using NeuByte Visual Grammar (flat blue, 8‑pt grid)
+
+**Footer format:**
+
+---
+
+© 2026 NeuByte Systems | Version: X.Y
+
+---
+
+## 4. Version Increment Rules
+### 4.1 Major Version (X.0)
+Increment when:
+
+- Requirements change significantly
+- Architecture changes
+- UI redesign
+- New modules added
+- Breaking changes introduced
+
+### 4.2 Minor Version (X.Y)
+Increment when:
+
+- Textual updates
+- Clarifications
+- Diagram refinements
+- Non‑breaking updates
+- Additional examples or notes
+
+## 5. Version Placement Standards
+**Markdown**
+
+Placed at the top of the document:
+
+---
+
+Version: X.Y  
+Last Updated: YYYY‑MM‑DD
+
+---
+
+**Word**
+
+Footer:
+
+ ---
+
+© 2026 NeuByte Technologies | Version: X.Y
+
+---
+
+**Excel**
+
+Footer:
+
+--- 
+
+© 2026 NeuByte Technologies — Version: X.Y
+
+---
+
+**Diagrams**
+
+Footer bar:
+
+---
+
+© 2026 NeuByte Systems | Version: X.Y
+
+---
+
+## 6. Version Control & Git Integration
+- Git tracks granular changes
+- Version numbers track published states
+- Each version bump should correspond to a Git tag
+
+**Tag examples:**
+
+---
+
+1.0
+1.1
+2.0
+
+---
+
+Still no “v” prefix.
+
+## 7. Automation (Optional but Recommended)
+
+**Excel**
+
+- Named cell AppVersion
+- VBA can auto‑inject footer version
+
+**Diagrams**
+
+- Template layer includes version placeholder
+- Updated manually or via Draw.io variables
+
+**Markdown**
+
+- Updated manually
+- GitHub Actions may enforce version presence
+
+## 8. Revision History Requirements
+- Required for all versioned deliverables
+- Not required for component‑level Markdown
+- Must match the version displayed at the top/footer
+- Must follow the canonical table format:
+
+## Revision History
+
+| Version | Date | Description |
+| --- | --- | --- |
+| 1.1 | 2026‑05‑28 | Reformatted to canonical NeuByte Standards structure |
+| 1.0 | 2026‑05‑13 | Initial release |
