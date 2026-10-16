@@ -1,0 +1,5 @@
+*.dacpac
+*.dbmdl
+*.mdf
+*.ldf
+*.bak

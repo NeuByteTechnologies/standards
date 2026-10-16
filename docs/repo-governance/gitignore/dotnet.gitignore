@@ -1,0 +1,27 @@
+# Build artifacts
+bin/
+obj/
+
+# VS metadata
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MSBuild
+*.cache
+*.dtbcache*
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Generated code
+*.AssemblyInfoInputs.cache
+*.AssemblyInfo.cs
+*.Generated.cs
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json

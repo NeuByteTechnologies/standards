@@ -1,0 +1,7 @@
+# ETL temp files
+*.tmp
+*.staging
+*.checkpoint
+
+# Pipeline caches
+*.etlcache

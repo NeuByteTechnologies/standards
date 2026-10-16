@@ -1,0 +1,8 @@
+# Blazor build output
+wwwroot/build/
+wwwroot/dist/
+*.blazor.config
+
+# Razor generated files
+*.g.cs
+*.razor.g.cs

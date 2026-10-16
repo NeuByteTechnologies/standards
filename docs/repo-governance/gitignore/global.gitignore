@@ -1,0 +1,15 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# Editor backups
+*~
+*.swp
+
+# Generic caches
+.cache/
